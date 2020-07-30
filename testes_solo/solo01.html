@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que eu posso fazer</title>
+    <style>
+        nav{
+            background-color: rgb(226, 42, 73);
+            color: white;
+            font-size: 30pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+            height: 90px;
+        }
+        
+        #titulo{
+            margin-top: 20px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        div#quadrado{
+            float: left;
+            background-color: rgb(116, 241, 158);
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, .6);
+            margin: 20px;
+            width: 250px;
+            height: 250px; 
+        }
+
+        div.texto{
+            color: yellow;
+            font: 40pt verdana;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        div#imagem{
+            float: left;
+            margin: 20px;
+            width: 250px;
+            height: 250px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, .6);
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+
+        input.botao{
+            clear: both;
+            display: block;
+            margin: 20px 20px 20px 110px;
+            size: 20px;
+            color: white;
+            background-color: purple;
+            font-size: 12pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #border{
+            float: left;
+            height: 350px;
+            width: 350px;
+            margin: 30px;
+            font-size: 50pt;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #tabela{
+            display: block;
+            clear: both;
+            margin: 20px;
+        }
+
+        #table{
+            border-spacing: 0px;
+            box-sizing: border-box;
+
+        }
+
+        #table td{
+            border: 1px solid black;
+        }
+
+        .paragrafo{
+            display: block;
+            clear: both;
+            text-align: justify;
+        }
+
+        .paragrafo h1{
+            margin: auto;
+            text-align: center;
+        }
+        .paragrafo p{
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="titulo">olá mundo!</div>
+    </nav>
+    <div id="quadrado">
+        <div class="texto">yellow</div>
+    </div>
+
+    <div id="imagem">
+        <img src="images.jpeg">
+    </div>
+    <input class="botao" type="button" value="Botão">
+
+    <div id="border">
+        border-box
+    </div>
+
+    <div id="tabela">
+        <table id="table">
+        <th colspan="3">tabela</th>
+        <tr><td>a</td><td>b</td><td>c</td></tr>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        </table>
+    </div>
+
+    <div class="paragrafo">
+        <h1>Fazendo um teste</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maxime illo voluptates nobis odit hic voluptas officia neque possimus animi dolorum, modi accusantium, odio aut cum eligendi adipisci officiis nesciunt!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptates repellendus asperiores perspiciatis laudantium sint, cum delectus hic, dolore possimus natus quas! Dolor quaerat deserunt minus cum laboriosam dicta? Nemo!</p>
+        <h1>Outro teste</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, obcaecati accusantium. Doloribus molestiae earum consectetur aut corporis odio labore beatae, vitae impedit, cum, maxime distinctio commodi! Quibusdam expedita laudantium qui?</p>
+    </div>
+
+</body>
+</html>
